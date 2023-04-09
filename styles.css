@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;400;500;700&family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3EAE3;
+}
+
+.container .card {
+    background-color: #FFFFFF;
+    width: 575px;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .card .product-img img{
+    width: 287.5px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.container .card .product-details {
+    padding: 35px;
+}
+
+.container .card .product-details .details-brand-name {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #7A7A83;
+}
+
+.container .card .product-details .details-header {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 27px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #1E232A;
+}
+
+.container .card .product-details .details-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #7A7A83;
+}
+
+.container .card .product-details .details-price {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container .card .product-details .details-price span:first-child{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3D8168;
+}
+
+.container .card .product-details .details-price span:last-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 12px;
+    text-decoration: line-through;
+    color: #7A7A83;
+}
+
+.container .card .product-details .button {
+    width: 220px;
+    height: 40px;
+    background-color: #3D8168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.container .card .product-details .button:hover {
+    background-color: #1A4031;
+}
+
+.container .card .product-details .button span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    margin-left: 12px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    
+}
